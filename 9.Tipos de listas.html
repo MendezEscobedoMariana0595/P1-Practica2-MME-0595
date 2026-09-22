@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<!--sirve para indicarle al navegador web qué versión de HTML se está utilizando-->
+<html lang="en">
+<!--sirve para indicar el idioma principal-->
+
+<head>
+    <!--sección que guarda información general-->
+
+    <meta charset="UTF-8">
+    <!--indica que caracteres usar para mostraer correctamente el texto-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--le dice al navegador móvil cómo debe ajustar el tamaño y la escala de una página web-->
+
+    <title>Tipos de listas en HTML</title>
+    <!-- define el título oficial de una página web-->
+</head>
+<!--cierre del encabezado-->
+<body>
+    <!-- etiqueta que define el cuerpo del documento y contiene todo el contenido visible de una página web-->
+
+    <h1>Tipos de listas</h1><!--Encabezado principal-->
+    <h2>Listas ordenadas</h2><!--Subtitulo o titulo con menos importancia-->
+    <p>Una lista ordenada es una serie de elementos los cuales 
+        tendran una numeracion de acuerdo al numeros de elementos.
+    </p><!--párrafo de texto-->
+
+    <ol>
+        <li>Luna Arias </li><!--definir cada uno de los elementos o ítems individuales dentro de una lista-->
+        <li>Franco Andrea</li>
+        <li>Granados Evelyn</li>
+    </ol><!--crear una lista ordenada de elementos que siguen una secuencia lógica, numérica o alfabética-->
+
+    <h2>Listas no ordenadas</h2><!--Subtitulo o titulo con menos importancia-->
+
+    <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
+        de cada item sino un pequeño elemento grafico
+    </p><!--párrafo de texto-->
+
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Python</li><!--definir cada uno de los elementos o ítems individuales dentro de una lista-->
+    </ul><!--crear listas desordenadas-->
+
+    <h2>Lista de definiciones</h2><!--Subtitulo o titulo con menos importancia-->
+    <p>Se utiliza para asociar un termino y la definicion del mismo</p><!--párrafo de texto-->
+
+    <dl>
+        <!-- Primer termino-->
+        <dt>C++</dt>
+        <!-- Definicion del primer termino-->
+        <dd>
+            Es un lenguaje de programacion, diseñado a mediados de los años
+            1980 como extension del lenguaje de programacion C.
+        </dd><!--sirve para describir o definir un término dentro de una lista de descripciones-->
+
+        <!-- Segundo termino-->
+        <dt>Java</dt>
+        <!-- Definicion del segundo termino-->
+        <dd>
+            Es un lenguaje de programacion orientado a objetos desarrollado
+            por Sun Microsystem a principios de los 90.
+        </dd><!--sirve para describir o definir un término dentro de una lista de descripciones-->
+
+        <!-- Tercer termino-->
+        <dt>JavaScript</dt>
+        <!-- Definicion del tercer termino-->
+        <dd>
+            Es un lenguaje interpretado, es decir que no requiere compilacion,
+            utilizado principalmente en paginas web, con una sintaxis similar
+            al lenguaje de programacion C.
+        </dd><!--sirve para describir o definir un término dentro de una lista de descripciones-->
+
+    </dl>
+    <h2>Listas anidadas</h2><!--Subtitulo o titulo con menos importancia-->
+
+    <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
+        anidar diferentes tipos de lista de acuerdo al requerimiento
+    </p><!--párrafo de texto-->
+
+    <ol><!--crear una lista ordenada de elementos que siguen una secuencia lógica, numérica o alfabética-->
+        <li>Argentina<!--definir cada uno de los elementos o ítems individuales dentro de una lista-->
+            <ul><!--crear listas desordenadas-->
+
+                <li>Buenos aires</li>
+                <li>La plata</li>
+                <li>Mendoza</li>
+            </ul>
+        </li>
+        <li>España
+            <ul>
+                <li>Barcelona</li>
+                <li>Madrid</li>
+                <li>Sevilla</li>
+            </ul>
+        </li>
+        <li>Mexico
+            <ul>
+                <li>Chihuahua</li>
+                <li>Cd. Juarez</li>
+                <li>Hermosillo</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+<!--Cierre del cuerpo-->
+</html><!--marcador de cierre que indica el final de un documento HTML.-->
